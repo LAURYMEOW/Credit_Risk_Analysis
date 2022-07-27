@@ -1,4 +1,4 @@
-# Credit_Risk_Analysis
+# Credit Risk Analysis
 
 #### Objetive:
 
@@ -91,7 +91,7 @@ Although this last model can be useful, it can still be improved to have a more 
 
 We have evaluated our data with 3 balancing techniques and with 2 ensemble classifiers. Coming to the conclusion that an ensemble model greatly improves the results for a very unbalanced model.
 
-![](https://github.com/LAURYMEOW/Credit_Risk_Analysis/blob/main/Plot%20Easy%20ensemble%20model%20test.png)
+![](https://github.com/LAURYMEOW/Credit_Risk_Analysis/blob/main/Plotting%20test%20and%20models.png)
 
 And also for the case at hand, measuring credit risk, the model that behaved best is the Easy Ensemble Classifier. Although it is the most competitive model, there are still improvements to be made to be able to use it.
 
