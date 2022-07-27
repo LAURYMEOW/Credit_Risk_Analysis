@@ -13,7 +13,7 @@ The measures that we will be reviewing in each model will be: Accuracy score, Pr
 
 The first two are based on Oversampling. The idea behind these models is thatif one class has too few instances in the training set, we choose more instances from that class for training until it'slarger.
 
-#### - El modelo Random Over Sample: In this model instances of the minority class are radomly selected and added to the training set until the majority and minority classes are balanced.
+#### - The Random Over Sample model: In this model instances of the minority class are radomly selected and added to the training set until the majority and minority classes are balanced.
 The results to this model are given at the table below:
 
 #### Table 1: 
@@ -37,7 +37,7 @@ In this model we can't see any improve on the metrics of the high risk class ove
  
 The following model belongs to the category of Under sample model. In these model the size of the majority class is decreased. #### Here we only uses actual data.
 
-#### -Modelo Cluster Centroids: This model identifies clusters of the majority class the generates synthetic data points, called centroids, that are representative of the clusters. Then majority class is then undersampled down to the size of the minority class.
+#### -The Cluster Centroids model: This model identifies clusters of the majority class the generates synthetic data points, called centroids, that are representative of the clusters. Then majority class is then undersampled down to the size of the minority class.
 In the table 3 we can see the model results.
 
 #### Table 3:
@@ -48,7 +48,7 @@ These results are worse than the two oversampling models before. Even the accura
 
 The fourth model is a combinatorial approach of over- and undersampling using the SMOTEENN algorithm.
 
-#### - Modelo SMOTEEN: This model combines the SMOTE and Edited Nearest Neighbors algorithms and consist in two-step process. First oversample the minority class with SMOTE then clean the result data with undersampling. This last step remove some class's outliers from the dataset which allows us to work with a cleaner database. 
+#### - The SMOTEEN model: This model combines the SMOTE and Edited Nearest Neighbors algorithms and consist in two-step process. First oversample the minority class with SMOTE then clean the result data with undersampling. This last step remove some class's outliers from the dataset which allows us to work with a cleaner database. 
 The results to this model are in the Table 4.
 
 #### Table 4:
