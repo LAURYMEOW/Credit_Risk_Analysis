@@ -90,9 +90,12 @@ Although this last model can be useful, it can still be improved to have a more 
 #### Summary 
 
 We have evaluated our data with 3 balancing techniques and with 2 ensemble classifiers. Coming to the conclusion that an ensemble model greatly improves the results for a very unbalanced model.
+
+![](https://github.com/LAURYMEOW/Credit_Risk_Analysis/blob/main/Plot%20Easy%20ensemble%20model%20test.png)
+
 And also for the case at hand, measuring credit risk, the model that behaved best is the Easy Ensemble Classifier. Although it is the most competitive model, there are still improvements to be made to be able to use it.
 
-![]()
+![](https://github.com/LAURYMEOW/Credit_Risk_Analysis/blob/main/Plot%20Easy%20ensemble%20model%20test.png)
 
 One of them is to review the most significant variables for the model and evaluate if it is theoretically appropriate to discard the least significant ones.
 This is possible considering that a model with more variables than it needs is overfitting. It may also be that there are variables that generate multicolnearity. Due to the above, it is important to make a more detailed analysis of the important variables for the model.
