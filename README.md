@@ -2,7 +2,7 @@
 
 #### Objetive:
 
-The goal is to perform a credit card risk analysis to assess the risk of fraud.
+The objetive of this analysis is to perform a credit card risk analysis to assess the risk of fraud.
 Credit risk is an inherently unbalanced classification problem, as good loans easily outnumber risky loans. Therefore, we need to use different techniques to train and evaluate models with unbalanced classes.
 For this process, the unbalanced learning and scikit-learn libraries will be used to build and evaluate models through resampling. The credit data set of credit cards that LendingClub has provided to us will be used.
 
@@ -20,7 +20,7 @@ The results to this model are given at the table below:
 
 ![](https://github.com/LAURYMEOW/Credit_Risk_Analysis/blob/main/Module-17-Challenge-Resources/Resources/Random_Oversample_table.png)
 
-In this first model there is evidence that we have two completely unbalanced classes. Due to the above, it is expected that the highest class will have a greater weight, which indicates low risk. This can be seen in the accuracy test result.
+In this first model there is evidence that we have two completely unbalanced classes. Due to the above, it is expected that the highest class will have a greater weight, which indicates low risk. This can be seen in the accuracy test result. 
 However, the recall test, which is the fraction of positives that were correctly identified, tells us that about half of both classes were correctly identified.
 The other indicator that we are interested in evaluating is the F1 that responds to: What percent of positive predictions were correct?. Our model says that it predicted 74% of low risk correctly but only 0.02% of high risk.
 This last indicator suggests that the model is not useful for our purpose.
@@ -33,7 +33,7 @@ The results to this model are given at the table 2:
 
 ![](https://github.com/LAURYMEOW/Credit_Risk_Analysis/blob/main/Module-17-Challenge-Resources/Resources/SMOTE%20Oversample.png)
 
-In this model we can't see any improve on the metrics of the high risk class over the Random Oversampling model results a pesar de que el accuracy score tuvo una ligera mejoria.
+In this model we can't see any improve on the metrics of the high risk class over the Random Oversampling model results although the accuracy score had a slight improvement.
  
 The following model belongs to the category of Under sample model. In these model the size of the majority class is decreased. #### Here we only uses actual data.
 
